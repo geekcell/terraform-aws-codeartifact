@@ -78,8 +78,8 @@ minimal required inputs and complexity.
 ## Resources
 
 - resource.aws_codeartifact_domain.main (main.tf#10)
-- resource.aws_codeartifact_repository.main (main.tf#15)
-- resource.aws_codeartifact_repository_permissions_policy.main (main.tf#22)
+- resource.aws_codeartifact_repository.main (main.tf#17)
+- resource.aws_codeartifact_repository_permissions_policy.main (main.tf#26)
 - data source.aws_caller_identity.current (data.tf#1)
 - data source.aws_iam_policy_document.main (data.tf#3)
 
