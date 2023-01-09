@@ -10,6 +10,8 @@
 resource "aws_codeartifact_domain" "main" {
   domain         = var.name_prefix
   encryption_key = module.kms.alias_arn
+
+  tags = var.tags
 }
 
 resource "aws_codeartifact_repository" "main" {
@@ -17,6 +19,8 @@ resource "aws_codeartifact_repository" "main" {
 
   repository  = var.name
   description = var.description
+
+  tags = var.tags
 }
 
 resource "aws_codeartifact_repository_permissions_policy" "main" {
