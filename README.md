@@ -1,8 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/template-terraform-module/main/docs/assets/logo.svg)](https://www.geekcell.io/)
-
-<!--
-Comment in these badges if they apply to the repository.
+[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/.github/main/geekcell-github-banner.png)](https://www.geekcell.io/)
 
 ### Code Quality
 [![License](https://img.shields.io/github/license/geekcell/terraform-aws-codeartifact)](https://github.com/geekcell/terraform-aws-codeartifact/blob/master/LICENSE)
@@ -35,8 +32,6 @@ Comment in these badges if they apply to the repository.
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-codeartifact/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-codeartifact&benchmark=NIST-800-53)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-codeartifact/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-codeartifact&benchmark=HIPAA)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-codeartifact/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-codeartifact&benchmark=FEDRAMP+%28MODERATE%29)
-
--->
 
 # Terraform AWS CodeArtifact
 
@@ -78,8 +73,8 @@ minimal required inputs and complexity.
 ## Resources
 
 - resource.aws_codeartifact_domain.main (main.tf#10)
-- resource.aws_codeartifact_repository.main (main.tf#15)
-- resource.aws_codeartifact_repository_permissions_policy.main (main.tf#22)
+- resource.aws_codeartifact_repository.main (main.tf#17)
+- resource.aws_codeartifact_repository_permissions_policy.main (main.tf#26)
 - data source.aws_caller_identity.current (data.tf#1)
 - data source.aws_iam_policy_document.main (data.tf#3)
 
