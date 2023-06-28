@@ -30,11 +30,8 @@ resource "aws_codeartifact_repository_permissions_policy" "main" {
 }
 
 module "kms" {
-  source = "github.com/geekcell/terraform-aws-kms?ref=main"
+  source  = "geekcell/kms/aws"
+  version = ">= 1.0.0, < 2.0.0"
 
-  alias = format(
-    "/codeartifact/domain/%s/repository/%s",
-    var.name,
-    format("%s-%s", var.name_prefix, var.name)
-  )
+  alias = "/codeartifact/domain/${var.name}/repository/${var.name_prefix}-${var.name}"
 }
